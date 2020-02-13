@@ -1,6 +1,6 @@
 
 def reverse_each_word (sentence)
-  print (sentence.split).reverse
+  sentence.split.each {|word| word.reverse}.join(" ")
 end 
 
 =begin
