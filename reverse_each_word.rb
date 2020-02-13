@@ -1,6 +1,7 @@
 
 def reverse_each_word (sentence)
-  print sentence.split
+  new = sentence.split
+  print new
 end 
 
 =begin
